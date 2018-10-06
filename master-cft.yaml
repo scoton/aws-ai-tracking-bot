@@ -513,7 +513,7 @@ Resources:
                                 - echo "INFO install cmds"
                                 - yum install zip -y
                                 - npm install -g n
-                                - n 9.3.0
+                                - n stable
                                 - npm update -g npm
                         pre_build:
                             commands:
